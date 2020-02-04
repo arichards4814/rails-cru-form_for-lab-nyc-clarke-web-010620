@@ -23,9 +23,9 @@ The data relationship will look something like this:
 
 * A song belongs to a genre
 
-* A genre has many songs
+* [x] A genre has many songs
 
-* An artist has many songs
+* [x] An artist has many songs
 
 
 The tests are in the `spec/features` directory for each model. You will need to build in the ability to `create`, `update`, and `show` for each model. And for the song `show` page you need to have it display each of the song's genre and artist, and link to the respective genre and artist `show` pages.
